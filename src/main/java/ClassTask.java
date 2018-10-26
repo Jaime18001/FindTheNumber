@@ -9,8 +9,16 @@
  * @author jaime
  */
 public class ClassTask {
+    
+  
     public static void main(String[] args)
     {
         System.out.println("Test");
+        double rnumber =  10*Math.random();
+        rnumber = Math.round(rnumber);
+        System.out.println(rnumber);
+        
     }
+    
 }
+
