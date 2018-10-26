@@ -9,7 +9,6 @@
  * @author jaime
  */
 import java.util.*; 
-import java.io.*;
 
 public class ClassTask {
     
@@ -17,12 +16,11 @@ public class ClassTask {
     public static void main(String[] args)
     {
         int i = 0;
-        Scanner inpnumber = new Scanner (System.in); 
-        double rnumber =  10*Math.random();
-        rnumber = Math.round(rnumber);
         System.out.println("What number is it?. Try to guess it. You have got 3 attempts.");
         while (i<3)
         {
+            Scanner inpnumber = new Scanner (System.in);
+            double rnumber = randomgen();
             System.out.println("Give me a integer number between 0 and 10");
             int number = inpnumber.nextByte();
             if (rnumber == number)
@@ -40,7 +38,15 @@ public class ClassTask {
             System.out.println("Game Over.");
             }
         }
+        
+    } 
+    public static double randomgen()
+    { 
+        double number =  10*Math.random();
+        number = Math.round(number);
+        return number;
     }
     
 }
+
 
