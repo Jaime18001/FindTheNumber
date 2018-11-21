@@ -35,7 +35,7 @@ public class ClassTask {
     public static int scannumber()
     {
         Scanner inpnumber = new Scanner (System.in); 
-        System.out.println("Give me a integer number between 0 and 10");
+        System.out.println("Give me a integer number between 0 and 10.");
         int number = inpnumber.nextByte();
         return number;
     }
