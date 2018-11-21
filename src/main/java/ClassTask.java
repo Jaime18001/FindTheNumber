@@ -1,22 +1,17 @@
-
-
 /**
  * This is a game in which you have to find a random number in attempts 
  * @author Jaime Martínez Fernández
  * @version 1.0
  */
-
 /**
  * I have imported the java.util library
  */
 import java.util.*; 
-
 /**
  * This is the main class
  * @author Jaime Martínez
  */
-public class ClassTask {
-    
+public class ClassTask { 
   /**
  * This method is the main method. 
  * @author Jaime Martínez Fernández
@@ -31,8 +26,7 @@ public class ClassTask {
         {  
             int number = scannumber();
             i = compnumber (rnumber, number, i);
-        }
-        
+        }        
     } 
     /**
      * This method scan an integer number from keyboard
@@ -55,21 +49,19 @@ public class ClassTask {
     public static int compnumber (double rnumber, int number, int i)
     {
         if (rnumber == number)
-            {
+        {
             printyw();
             i = 4;
-            }
+        }
         else
         {
             System.out.println("No it is not. You have got " + (2-i) + " attempts.");
-            i++;
-            
+            i++;   
         }
         if (i == 3)
         {
             System.out.println("Game Over.");
-            i = Annother_class.pa();         
-           
+            i = Annother_class.pa();             
         }
         return i;
     }
@@ -80,7 +72,6 @@ public class ClassTask {
     {
         System.out.println("You win");
     }
-    
     /**
      * This function generates a random integer number between 0 and 10.
      * @return integer number
@@ -90,8 +81,7 @@ public class ClassTask {
         double number =  10*Math.random();
         number = Math.round(number);
         return number;
-    }
-    
+    }   
 }
 
 
