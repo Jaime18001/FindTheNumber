@@ -94,4 +94,4 @@ public static int pa ()
 Pa method is the only one which is in other class.<br /><br />
 
 I have also added a JTest file. If you want to download this proyect you can do it in the next link:<br />
-[Link to GitHUB Proyect.Click here!](https://github.com/Jaime18001/ST.git)
+[Link to GitHUB Proyect.Click here!](https://github.com/Jaime18001/FindTheNumber.git)
