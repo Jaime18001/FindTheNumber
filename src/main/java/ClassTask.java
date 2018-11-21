@@ -55,7 +55,7 @@ public class ClassTask {
         }
         else
         {
-            System.out.println("No it is not. You have got " + (2-i) + " attempts.");
+            System.out.println("No it is not.\nYou have got " + (2-i) + " attempts.");
             i++;   
         }
         if (i == 3)
